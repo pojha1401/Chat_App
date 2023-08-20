@@ -1,0 +1,78 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+	color: white;
+ }
+#back{
+	height:100vh;
+	width: 100vw;
+	z-index: -4;
+	position: FIXED;
+}
+ 
+ #intro {
+ 	color: #FFFFFF;
+ 	height: 5%;
+ 	padding: 10px;
+ }
+
+
+ body {
+ 	font: 20px;
+ }
+
+
+
+ form {
+ 	padding: 3px;
+ 	position: fixed;
+ 	bottom: 5px;
+ 	width: 100%;
+ }
+
+ form input {
+ 	border: 0;
+	border-radius: 100px;
+ 	padding: 10px;
+ 	width: 90%;
+ 	margin-right: 0.5%;
+ 	margin-left: 1%;
+	 background-color: rgba(63, 63, 63, 0.5);
+	 backdrop-filter: blur(10px);
+	}
+	
+	form button {
+	 border-radius: 100px;
+ 	width: 8%;
+ 	border: none;
+ 	padding: 5px;
+ 	font-size: 20px;
+	 background-color: rgba(63, 63, 63, 0.5);
+	 backdrop-filter: blur(10px);
+ }
+
+ #messages {
+
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+
+ #messages li {
+ 	padding: 5px 10px;
+ 	border-radius: 200px;
+	 background-color: rgba(63, 63, 63, 0.5);
+	 backdrop-filter: blur(10px);
+ }
+
+ #messages li:nth-child(odd) {
+	background-color: rgba(63, 63, 63, 0.5);
+	backdrop-filter: blur(10px);
+ 	margin: 10px;
+ }
+
+
+ #list {
+ 	text-align: right;
+ }
